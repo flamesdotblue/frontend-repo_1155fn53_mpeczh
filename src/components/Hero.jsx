@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, Sparkles, CheckCircle2 } from 'lucide-react';
 const Hero = () => {
   return (
     <section className="relative w-full overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
-      <div className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:py-20">
+      <div className="mx-auto max-w-7xl px-6 py-12 md:py-16">
         <div className="space-y-5">
           <div className="inline-flex items-center gap-2 rounded-full border border-slate-700 bg-slate-800/50 px-3 py-1 text-xs text-slate-300">
             <Sparkles className="h-3.5 w-3.5 text-cyan-300" />
