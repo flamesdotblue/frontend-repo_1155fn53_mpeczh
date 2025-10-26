@@ -38,9 +38,9 @@ const ProjectCard = ({ title, description, tech, tags = [], link, featured = fal
 
 const Projects = () => {
   return (
-    <section id="projects" className="relative w-full bg-slate-950 py-16 text-white md:py-24">
+    <section id="projects" className="relative w-full bg-slate-950 py-12 text-white md:py-16">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="mb-10 flex items-center justify-between">
+        <div className="mb-8 flex items-center justify-between">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">Projects</h2>
             <p className="mt-2 max-w-2xl text-slate-300">
@@ -100,7 +100,7 @@ const Projects = () => {
           />
         </div>
 
-        <div className="mt-12 grid gap-6 rounded-2xl border border-slate-800 bg-slate-900/40 p-6 md:grid-cols-3">
+        <div className="mt-8 grid gap-6 rounded-2xl border border-slate-800 bg-slate-900/40 p-6 md:grid-cols-3">
           <div className="flex items-start gap-3">
             <ShieldCheck className="mt-1 h-5 w-5 text-emerald-400" />
             <div>
